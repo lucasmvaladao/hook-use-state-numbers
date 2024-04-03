@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow:  3px 6px 10px 6px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+ 
+.area-botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+ 
+button{
+    margin-top: 20px;
+    color: aliceblue;
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(111, 132, 132);
+    box-shadow: 0px 3px 6px rgba(119,119,119,0.5);
+    padding: 10px 15px;
+    cursor: pointer;
+ 
+}
